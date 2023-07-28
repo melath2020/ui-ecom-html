@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-fa14db:#e96a94;
+    --color-74b4d6:#4489ad;
+    --color-9cc794:#9cc794;
+    --color-fcfcfc:#fcfcfc;
+    --color-f5f4ec:#f5f4ec;
+}
+@font-face {
+    font-family: Recoleta;
+    src: url('/assets/Fonts/Recoleta-RegularDEMO.woff')  format('truetype');
+  }
+  @font-face {
+    font-family: DmSans;
+    src: url('/assets/Fonts/22742719282.ttf')  format('truetype');
+  }
+.row {
+    --bs-gutter-x: 0rem;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    --bs-gutter-x: 0rem;
+}
+body{
+    font-family: DmSans;
+}
+
+
+/* header-section */
+.header-section{
+    padding-bottom: 30px;
+}
+.top-header{
+    background-color: var(--color-fa14db);
+   
+}
+.top-header p{
+    font-size: 12px;
+    padding: 10px;
+}
+.logo-head{
+    width: 100%;
+    padding-top: 20px;
+}
+.menu{
+    padding-top:20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.menu p{
+    padding-left: 30px;
+    color:var(--color-74b4d6);
+}
+.icons{
+    padding-top:20px;
+    font-size: 25px;
+    color:var(--color-74b4d6);
+}
+.icons .fa-solid{
+    padding-left: 10px;
+}
+/* header-ends here */
+
+
+/* main-section-start */
+.main-section{
+    height: 15.3cm;
+    background-color: rgb(248, 243, 237);
+    color: var(--color-74b4d6);
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.content-main{
+    margin: 0;
+    padding: 0;
+    margin-top: 150px;
+    font-family: DmSans;
+    padding-bottom: 30px;
+}
+.content-main .head-txt{
+    font-size: 50px;
+    line-height: 50px;
+    width: 400px;
+}
+.content-main .btm-txt{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.btn-shop-all{
+    margin-top: 30px;
+    background-color: var(--color-9cc794);
+    border:none;
+    color: var(--color-fcfcfc);
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+   
+}
+
+.btn-shop-all:hover{
+    transition: 0.5s;
+    margin-top: 30px;
+    background-color: var(--color-74b4d6);
+    border:none;
+    color: var(--color-fcfcfc);
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+/* .shop-cat-section- starts */
+
+.shop-cat-txt{
+    font-family: DmSans;
+    padding-top: 50px;
+    color: var(--color-74b4d6);
+}
+.shop-cat-section img{
+    width: 55%;
+}
+
+/* .shop-cat-section- ends */
+
+/* discover-section */
+.discover-section{
+    background-image: url(/assets/bgrnd.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 15cm;
+    color: var(--color-74b4d6);
+}
+.btn-discvr{
+    margin-top: 30px;
+    background-color: var(--color-74b4d6);
+    border:none;
+    color: var(--color-fcfcfc);
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+
+}
+
+.btn-discvr:hover{
+    transition: 0.5s;
+    margin-top: 30px;
+    background-color: var(--color-9cc794);
+    border:none;
+    color: var(--color-fcfcfc);
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+/* discover-section  ends*/
+
+/* Toys Section Starts */
+.toys-section{
+    margin-top: 50px;
+    color: var(--color-74b4d6);
+    padding-bottom: 30px;
+}
+.toys-section img{
+    width: 90%;
+}
+.head-toy {
+    
+    justify-content: space-between;
+}
+
+.head-toy button{
+    background-color: var(--color-fa14db);
+    margin-top: 0px;
+    border:none;
+    color: var(--color-fcfcfc);
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+   
+
+}
+.head-toy button:hover{
+    transition: 0.5s;
+    background-color: var(--color-74b4d6);
+    border:none;
+    color: var(--color-fcfcfc);
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+   
+}
+
+/* Toys Section Ends */
+
+/* .shop look starts */
+.shop-look{
+    
+    background-color: rgb(255, 255, 255);
+    color: var(--color-74b4d6);
+}
+.shop-look .main{
+    width: 100%;
+    height: 15cm;
+
+}
+.bck-prdct{
+    background-color: var(--color-f5f4ec);
+}
+.shop-look .content-main{
+    margin: 0;
+    padding: 0;
+    margin-top: 70px;
+    font-family: DmSans;
+    padding-bottom: 30px;
+}
+.shop-look .content-main .head-txt{
+    font-size: 50px;
+    line-height: 50px;
+    width: 400px;
+}
+
+
+/* .shop look ends */
+
+
+/* <!-- toys-every-section starts -->
+
+
+
+      <!-- toys-every-section ends --> */
