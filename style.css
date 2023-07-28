@@ -238,7 +238,7 @@ body{
 
 /* discover-section */
 .discover-section{
-    background-image: url("assets/bgrnd.png");
+    background-image: url("./assets/bgrnd.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
