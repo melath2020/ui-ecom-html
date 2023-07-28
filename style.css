@@ -101,11 +101,11 @@ a{
 }
 @font-face {
     font-family: Recoleta;
-    src: url('/assets/Fonts/Recoleta-RegularDEMO.woff')  format('truetype');
+    src: url('assets/Fonts/Recoleta-RegularDEMO.woff')  format('truetype');
   }
   @font-face {
     font-family: DmSans;
-    src: url('/assets/Fonts/22742719282.ttf')  format('truetype');
+    src: url('assets/Fonts/22742719282.ttf')  format('truetype');
   }
 .row {
     --bs-gutter-x: 0rem;
@@ -238,7 +238,7 @@ body{
 
 /* discover-section */
 .discover-section{
-    background-image: url(/assets/bgrnd.png);
+    background-image: url(assets/bgrnd.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
