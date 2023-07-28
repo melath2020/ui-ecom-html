@@ -3,11 +3,13 @@
     padding: 0;
 }
 :root{
-    --color-fa14db:#e96a94;
-    --color-74b4d6:#4489ad;
-    --color-9cc794:#9cc794;
+    --color-fa14db: #eab3af;
+    --color-74b4d6:#55829a;
+    --color-9cc794:#89c8ad;
     --color-fcfcfc:#fcfcfc;
-    --color-f5f4ec:#f5f4ec;
+    --color-f5f4ec: #f7f5ec;
+    --color-eff7f4: #eff7f4;
+    
 }
 @font-face {
     font-family: Recoleta;
@@ -240,8 +242,89 @@ body{
 /* .shop look ends */
 
 
-/* <!-- toys-every-section starts -->
+ /* toys-every-section starts  */
+ .toys-every-section{
+    padding-bottom: 50px;
+ }
+.btn-toy-every {
+    margin-top: 30px;
+    background-color: var(--color-fa14db);
+    border:none;
+    color: var(--color-fcfcfc);
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+.btn-toy-every:hover{
+    transition: 0.5s;
+    background-color: var(--color-74b4d6);
+    border:none;
+    color: var(--color-fcfcfc);
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+   
+}
 
 
+       /* toys-every-section ends  */
 
-      <!-- toys-every-section ends --> */
+     /* our-story-section-starts */
+     
+/* main-section-start */
+.our-story-section{
+    height: 15.3cm;
+    background-color:var(--color-eff7f4);
+    color: var(--color-74b4d6);
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.content-main{
+    margin: 0;
+    padding: 0;
+    margin-top: 150px;
+    font-family: DmSans;
+    padding-bottom: 30px;
+}
+.content-main .head-txt{
+    font-size: 50px;
+    line-height: 50px;
+    width: 400px;
+}
+.our-story-section.content-main .btm-txt{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.our-story-section .btn-shop-all{
+    margin-top: 30px;
+    background-color: var(--color-74b4d6);
+    border:none;
+    color: var(--color-fcfcfc);
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+   
+}
+
+.our-story-section .btn-shop-all:hover{
+    transition: 0.5s;
+    margin-top: 30px;
+    background-color: var(--color-fa14db);
+    border:none;
+    color: var(--color-fcfcfc);
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+          /* our-story-section-ends */
